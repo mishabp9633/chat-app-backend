@@ -1,0 +1,47 @@
+{
+  "name": "sum-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cloudinary": "^1.33.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "formidable": "^2.1.1",
+    "geo-coordinates": "^0.2.0",
+    "google-auth-library": "^8.7.0",
+    "googleapis": "^110.0.0",
+    "http-errors": "^2.0.0",
+    "http-exception": "^0.0.2",
+    "ip": "^2.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.8.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-jwt": "^4.0.1",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "keywords": [],
+  "description": ""
+}
